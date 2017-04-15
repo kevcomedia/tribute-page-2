@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://necolas.github.io/normalize.css/6.0.0/normalize.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
