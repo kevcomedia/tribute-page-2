@@ -52,3 +52,14 @@ main {
 .small {
   font-size: .75rem;
 }
+
+dl {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: .25rem;
+}
+
+dt {
+  font-weight: bold;
+}
