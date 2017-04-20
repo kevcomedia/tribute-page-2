@@ -10,6 +10,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 1.5em;
 }
 
 main {
@@ -30,6 +31,7 @@ main {
   border: .0625em solid lightgray;
   box-shadow: 0 .25em .5em rgba(0,0,0,.25);
   font-size: .875em;
+  line-height: 1.5em;
   padding: .5em;
   text-align: center;
 }
