@@ -15,6 +15,12 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 425px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 main {
   display: grid;
   margin: 0 auto;
