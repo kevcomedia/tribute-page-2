@@ -57,6 +57,12 @@ main {
   padding: .75rem;
 }
 
+@media screen and (min-width: 1024px) {
+  #img-div {
+    margin-left: 2.5rem;
+  }
+}
+
 #image {
   display: block;
   height: auto;
