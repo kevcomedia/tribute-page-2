@@ -11,16 +11,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.5em;
+  text-align: center;
 }
 
 main {
   display: grid;
   margin: 0 1em;
   max-width: 62.5em;
-}
-
-#title {
-  text-align: center;
 }
 
 #img-div {
@@ -30,7 +27,6 @@ main {
   font-size: .875em;
   line-height: 1.5em;
   padding: .75rem;
-  text-align: center;
 }
 
 #image {
