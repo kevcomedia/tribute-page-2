@@ -15,6 +15,7 @@ body {
   text-align: center;
 }
 
+/* Font size increase */
 @media screen and (min-width: 425px) {
   body {
     font-size: 16px;
@@ -31,6 +32,7 @@ main {
   line-height: 1.4em;
 }
 
+/* Two-column layout */
 @media screen and (min-width: 768px) {
   main {
     grid-template-rows: repeat(3, auto);
@@ -57,6 +59,7 @@ main {
   padding: .75rem;
 }
 
+/* Figure card left margin from auto to fixed */
 @media screen and (min-width: 1024px) {
   #img-div {
     margin-left: 2.5rem;
@@ -70,6 +73,7 @@ main {
   max-width: 100%;
 }
 
+/* Text alignment adjustment from center for main text */
 @media screen and (min-width: 768px) {
   #tribute-info {
     text-align: left;
@@ -99,6 +103,8 @@ dd {
   margin-left: 0;
 }
 
+/* Table layout for timeline
+   Remove bottom padding for each item too */
 @media screen and (min-width: 568px) {
   dl {
     grid-template-columns: auto auto;
