@@ -70,6 +70,12 @@ main {
   max-width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  #tribute-info {
+    text-align: left;
+  }
+}
+
 #tribute-info h2 {
   margin-bottom: 0;
 }
