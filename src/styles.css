@@ -15,14 +15,11 @@ body {
 
 main {
   display: grid;
-  grid-template-rows: 1fr auto auto;
-  grid-template-columns: 2fr 3fr;
   margin: 0 auto;
   max-width: 62.5em;
 }
 
 #title {
-  grid-column: auto / span 2;
   text-align: center;
 }
 
@@ -41,10 +38,6 @@ main {
   height: auto;
   margin: auto;
   max-width: 100%;
-}
-
-#tribute-info {
-  grid-row: auto / span 2;
 }
 
 #tribute-info h2 {
