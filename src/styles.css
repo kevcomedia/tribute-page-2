@@ -51,10 +51,14 @@ main {
 dl {
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: auto auto;
   grid-row-gap: .25rem;
 }
 
 dt {
   font-weight: bold;
+}
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
 }
