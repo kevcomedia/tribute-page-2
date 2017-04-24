@@ -15,7 +15,7 @@ body {
 
 main {
   display: grid;
-  margin: 0 auto;
+  margin: 0 1em;
   max-width: 62.5em;
 }
 
